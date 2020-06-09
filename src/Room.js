@@ -12,7 +12,7 @@ function Room() {
       <div className={`room ${isLit ? "lit" : "dark"}`}>
         The room is {isLit ? "lit" : "dark"}
         <br />
-        The temperature is {isTemp}
+        The temperature is {isTemp} C
         <br />
         <button onClick={() => setLit(!isLit)}>Toggle light</button>
         <br />
